@@ -228,3 +228,31 @@ body {
   text-align: center;
   color: var(--gray-500);
 }
+
+.repo-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.repo-details {
+  display: grid;
+  grid-template-columns: minmax(6rem, 10rem) 1fr;
+  gap: 0.75rem 1rem;
+  margin-bottom: 0;
+}
+
+.repo-details dt {
+  font-weight: 500;
+  color: var(--gray-500);
+}
+
+.repo-details dd {
+  margin-bottom: 0;
+}
+
+.repo-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
