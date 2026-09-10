@@ -18,7 +18,7 @@ export function reposTable(repos) {
             <th class="d-none d-md-table-cell">Descrição</th>
             <th>Linguagem</th>
             <th class="text-end">Estrelas</th>
-            <th>Ações</th>
+            <th><span class="visually-hidden">Ações</span></th>
           </tr>
         </thead>
 
@@ -48,7 +48,7 @@ function repoRow(repo) {
 
       <td class="text-end">${formatNumber(repo.stargazers_count)}</td>
 
-      <td>
+      <td class="action-cell">
         <a
           class="btn btn-primary btn-sm"
           href="${detailsHref}"
