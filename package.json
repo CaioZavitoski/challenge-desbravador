@@ -1,0 +1,9 @@
+{
+  "name": "challenge-desbravador",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Desafio Front-End Desbravador - busca de usuários e repositórios do GitHub",
+  "scripts": {
+    "start": "npx --yes http-server . -p 5173 -c-1"
+  }
+}
